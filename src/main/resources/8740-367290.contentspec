@@ -1,0 +1,61 @@
+CHECKSUM=63d1e041c633a42827f56fa86954b4a8
+ID=8740
+Title = Administration and Configuration Guide
+Subtitle = For Use with JBoss Enterprise Application Platform 6
+Abstract = This book is a guide to the administration and configuration of JBoss Enterprise Application Platform 6 and its patch releases.
+Product = JBoss Enterprise Application Platform
+Version = 6
+Copyright Holder = Red Hat, Inc.
+
+Chapter: Deploy JBoss Enterprise Application Platform 6 on Amazon EC2
+  Section: Introduction
+    About Amazon EC2 [9364, rev: 299129]
+    About Amazon Machine Instances (AMIs) [9365, rev: 299129]
+    About JBoss Cloud Access [9366, rev: 299129]
+    JBoss Cloud Access Features [9367, rev: 366707]
+    Supported Amazon EC2 Instance Types [9368, rev: 299129]
+    Supported Red Hat AMIs [9369, rev: 299129]
+  Section: Deploying JBoss Enterprise Application Platform 6 on Amazon EC2
+    Overview of Deploying JBoss Enterprise Application Platform 6 on Amazon EC2 [9370, rev: 299129]
+    Section: Non-clustered JBoss Enterprise Application Platform 6
+      About Non-clustered Instances [9371, rev: 299129]
+      Section: Non-clustered Instances
+        Launch a Non-clustered JBoss Enterprise Application Platform 6 Instance [9372, rev: 299129]
+        Deploy an Application on a non-clustered JBoss Enterprise Application Platform Instance [9401, rev: 299129]
+        Test the Non-clustered JBoss Enterprise Application Platform 6 Instance [9373, rev: 299129]
+      Section: Non-clustered Managed Domains
+        Launch an Instance to Serve as a Domain Controller [12696, rev: 342051]
+        Launch One or More Instances to Serve as Host Controllers [12720, rev: 342063]
+        Test the Non-Clustered JBoss Enterprise Application Platform 6 Managed Domain [12721, rev: 342065]
+    Section: Clustered JBoss Enterprise Application Platform 6
+      About Clustered Instances [9427, rev: 366705]
+      Create a Relational Database Service Database Instance [9430, rev: 299129]
+      About Virtual Private Clouds [9431, rev: 299129]
+      Create a Virtual Private Cloud (VPC) [9432, rev: 299129]
+      Launch an Apache HTTPD instance to serve as a mod_cluster proxy and a NAT instance for the VPC [9433, rev: 366764]
+      Configure the VPC Private Subnet Default Route [9434, rev: 299129]
+      About Identity and Access Management (IAM) [9435, rev: 299129]
+      Configure IAM Setup [9436, rev: 299129]
+      About the S3 Bucket [9437, rev: 299129]
+      Configure S3 Bucket Setup [9438, rev: 299129]
+      Section: Clustered Instances
+        Launch Clustered JBoss Enterprise Application Platform 6 AMIs [9439, rev: 299129]
+        Test the Clustered JBoss Enterprise Application Platform 6 Instance [9440, rev: 299129]
+      Section: Clustered Managed Domains
+        Launch an Instance to Serve as a Cluster Domain Controller [12719, rev: 342061]
+        Launch One or More Instances to Serve as Cluster Host Controllers [12722, rev: 342071]
+        Test the Clustered JBoss Enterprise Application Platform 6 Managed Domain [12723, rev: 342069]
+  Section: Establishing Monitoring with JBoss Operations Network (JON)
+    About AMI Monitoring [9478, rev: 299129]
+    About Connectivity Requirements [9507, rev: 299129]
+    About Network Address Translation (NAT) [9479, rev: 299129]
+    About Amazon EC2 and DNS [9480, rev: 299129]
+    About Routing in EC2 [9481, rev: 299129]
+    About Terminating and Restarting with JON [9482, rev: 299129]
+    Configure an Instance to Register with JBoss Operations Network [9483, rev: 299129]
+  Section: User Script Configuration
+    Permanent Configuration Parameters [9347, rev: 363906]
+    Custom Script Parameters [9348, rev: 299129]
+  Section: Troubleshooting
+    About Troubleshooting Amazon EC2 [9375, rev: 299129]
+    Diagnostic Information [9349, rev: 299129]

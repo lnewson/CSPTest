@@ -1,0 +1,51 @@
+CHECKSUM=0df50791d2564ef5ff0697e29bd0bc15
+ID=8740
+Title = Administration and Configuration Guide
+Subtitle = For Use with JBoss Enterprise Application Platform 6
+Description = This book is a guide to the administration and configuration of JBoss Enterprise Application Platform 6 and its patch releases.
+Product = JBoss Enterprise Application Platform
+Version = 6
+Copyright Holder= Red Hat, Inc.
+
+Chapter: Deploy JBoss Enterprise Application Platform 6 on Amazon EC2
+  Section: Introduction
+    About Amazon EC2 [9364]
+    About Amazon Machine Instances (AMIs) [9365]
+    About JBoss Cloud Access [9366]
+    JBoss Cloud Access Features [9367]
+    Supported Amazon EC2 Instance Types [9368]
+    Supported Red Hat AMIs [9369]
+  Section: Deploying JBoss Enterprise Application Platform 6 on Amazon EC2
+    Overview of Deploying JBoss Enterprise Application Platform 6 on Amazon EC2 [9370]
+    Section: Non-clustered Instances
+      About Non-clustered Instances [9371]
+      Launch a Non-clustered JBoss Enterprise Application Platform 6 Instance [9372]
+      Deploy an Application on a non-clustered JBoss Enterprise Application Platform Instance [9401]
+      Test the Non-clustered JBoss Enterprise Application Platform 6 Instance [9373]
+    Section: Clustered Instances
+      About Clustered Instances [9427]
+      Create a Relational Database Service Database Instance [9430]
+      About Virtual Private Clouds [9431]
+      Create a Virtual Private Cloud (VPC) [9432]
+      Launch an Apache HTTPD instance to serve as a mod_cluster proxy and a NAT instance for the VPC [9433]
+      Configure the VPC Private Subnet Default Route [9434]
+      About Identity and Access Management (IAM) [9435]
+      Configure IAM Setup [9436]
+      About the S3 Bucket [9437]
+      Configure S3 Bucket Setup [9438]
+      Launch Clustered JBoss Enterprise Application Platform 6 AMIs [9439]
+      Test the Clustered JBoss Enterprise Application Platform 6 Instance [9440]
+  Section: Establishing Monitoring with JBoss Operations Network (JON)
+    About AMI Monitoring [9478]
+    About Connectivity Requirements [9507]
+    About Network Address Translation (NAT) [9479]
+    About Amazon EC2 and DNS [9480]
+    About Routing in EC2 [9481]
+    About Terminating and Restarting with JON [9482]
+    Configure an Instance to Register with JBoss Operations Network [9483]
+  Section: User Script Configuration
+    Permanent Configuration Parameters [9347, rev: 296792]
+    Custom Script Parameters [9348, rev: 216241]
+  Section: Troubleshooting
+    About Troubleshooting Amazon EC2 [9375]
+    Diagnostic Information [9349]
