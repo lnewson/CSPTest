@@ -26,12 +26,12 @@ public class Main {
         log.info("Please execute the following SQL on the server first:\n\n" +
                 "INSERT INTO `REVINFO` (`REV`, `REVTSTMP`, `Flag`, `Message`, `Username`) VALUES (NULL, UNIX_TIMESTAMP() * 1000, '1', " +
                 "'', NULL);\nSET @REV = LAST_INSERT_ID();\n" +
-                "INSERT INTO `ContentSpec`(`ContentSpecID`, `ContentSpecType`, `Locale`, `LastModified`) VALUES ('8740', '0', 'en-US', " +
+                "INSERT INTO `ContentSpec`(`ContentSpecID`, `ContentSpecType`, `Locale`, `LastModified`) VALUES ('6895', '0', 'en-US', " +
                 "'" + dateFormat.format(date) + "');\n" +
                 "INSERT INTO `ContentSpec_AUD`(`ContentSpecID`, `REV`, `REVTYPE`, `ContentSpecType`, `Locale`, " +
-                "`LastModified`) VALUES ('8740', @REV, '0', '0', 'en-US', '" + dateFormat.format(date) + "');\n");
-        final String first = ResourceUtilities.resourceFileToString("/", "8740-299959.contentspec");
-        final String second = ResourceUtilities.resourceFileToString("/", "8740-367290.contentspec");
+                "`LastModified`) VALUES ('6895', @REV, '0', '0', 'en-US', '" + dateFormat.format(date) + "');\n");
+        final String first = ResourceUtilities.resourceFileToString("/", "6895-369735.contentspec");
+        final String second = ResourceUtilities.resourceFileToString("/", "6895-436615.contentspec");
 
         Scanner scanner = new Scanner(System.in);
         String answer = "";
@@ -41,8 +41,8 @@ public class Main {
         }
 
         if (answer.toLowerCase().matches("y|yes")) {
-            migrateContentSpec(8740, first);
-            migrateContentSpec(8740, second);
+            migrateContentSpec(6895, first);
+            migrateContentSpec(6895, second);
         } else {
             System.exit(-1);
         }

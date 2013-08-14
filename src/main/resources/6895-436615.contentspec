@@ -1,0 +1,76 @@
+CHECKSUM=a5ff0e9327cc2a9840bcfab23e52e5b0
+ID=6895
+# Content spec written by
+# Generated on <date>
+
+# Lines that commence with the # symbol are comments
+
+# The fields below are mandatory
+Title = Installation Guide
+Subtitle = For Use with JBoss Enterprise Application Platform 6
+Description = This book is a guide to the installation of JBoss Enterprise Application Platform 6 and its patch releases.
+Product = JBoss Enterprise Application Platform
+Version = 6.1
+Edition = 1
+DTD = Docbook 4.5
+Copyright Holder= Red Hat, Inc.
+
+# The commented fields below are optional
+
+Brand = JBoss
+publican.cfg = []
+
+# Debug = [0|1|2]
+BZPRODUCT = JBoss Enterprise Application Platform 6
+BZCOMPONENT = doc-Installation_Guide
+BZVERSION = 6.1.0
+
+[Writer = twells]
+Chapter: Introduction
+  About JBoss Enterprise Application Platform 6 [228, rev: 376731]
+  About the Red Hat Customer Portal [254, rev: 428364]
+
+Chapter: Requirements
+  JBoss Enterprise Application Platform 6 Installation Prerequisites [234, rev: 432482]
+
+Chapter: Installation
+  JBoss Enterprise Application Platform 6 Installation Methods [248, rev: 371203]
+  Section: Zip Installation
+    Download JBoss Enterprise Application Platform 6 (Zip Installation) [13004, rev: 428605]
+    Install JBoss Enterprise Application Platform 6 (Zip Installation) [252, rev: 432580]
+    Uninstall JBoss Enterprise Application Platform 6 (Zip Installation) [4546, rev: 370372]
+  Section: Graphical Installer
+    Download JBoss Enterprise Application Platform 6 (Installer) [13005, rev: 370702]
+    Install JBoss Enterprise Application Platform 6 (Graphical Installer) [13006, rev: 370377]
+    Uninstall JBoss Enterprise Application Platform 6 (Graphical Installer) [4547, rev: 435476]
+  Section: Text-based Installer
+    Download JBoss Enterprise Application Platform 6 (Installer) [13005, rev: 370702]
+    Install JBoss Enterprise Application Platform 6 (Text-based Installer) [13007, rev: 428604]
+    Uninstall JBoss Enterprise Application Platform 6 (Text-based Installer) [13108, rev: 369729]
+  Section: Graphical RPM Installation
+    Install JBoss Enterprise Application Platform 6 (Graphical RPM Installation) [13125, rev: 431864]
+#    Uninstall JBoss Enterprise Application Platform 6 (Graphical RPM Installation) [13126]
+  Section: Text-based RPM Installation
+    Install JBoss Enterprise Application Platform 6 (Text-based RPM Installation) [250, rev: 431806]
+#    Uninstall JBoss Enterprise Application Platform 6 (Text-based RPM Installation) [4548]
+  Section: Patch Installation
+    About Patching Mechanisms [13441, rev: 435332]
+    Subscribe to Patch Mailing Lists [13442, rev: 375115]
+    Install Patches in zip form [13443, rev: 377329]
+    Install Patches in RPM form [13444, rev: 377337]
+    Severity and Impact Rating of JBoss Security Patches [13447, rev: 377339]
+  Section: Automated Installation
+    Install Multiple Instances of JBoss Enterprise Application Platform 6 (Installer) [13008, rev: 370324]
+  Section: Service Configuration
+    Configure JBoss Enterprise Application Platform as a Service in Red Hat Enterprise Linux (RPM Method) [14102, rev: 431862]
+    Configure JBoss Enterprise Application Platform as a Service in Red Hat Enterprise Linux (Zip, Installer) [3758, rev: 435272]
+Chapter: Upgrade to the Latest Release
+  Upgrade the JBoss Enterprise Application Platform 6 ZIP Installation [12710, rev: 375098]
+  Upgrade the JBoss Enterprise Application Platform 6 RPM Installation [12709, rev: 435370]
+  Upgrade JBoss Enterprise Application Server Cluster from 6.0 to 6.1 [13892, rev: 429126]
+
+Appendix: Additional Information
+  Available Downloads for JBoss Enterprise Application Platform 6 [9127, rev: 368937]
+  Directory Structure of JBoss Enterprise Application Platform 6 [3371, rev: 369680]
+  RPM Package List for JBoss Enterprise Application Platform 6 [11727, rev: 431477]
+  RPM Installation Configuration Files for JBoss Enterprise Application Platform 6 [11798, rev: 435342]
